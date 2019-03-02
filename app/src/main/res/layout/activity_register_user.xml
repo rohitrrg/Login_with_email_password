@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterUser">
+
+    <EditText
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="90dp"
+        android:id="@+id/editnewEmail1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:inputType="textPersonName"
+        android:hint="email" />
+
+    <EditText
+        android:id="@+id/editnewPass1"
+        android:layout_below="@+id/editnewEmail1"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:hint="password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:inputType="textPassword" />
+
+    <!--<EditText-->
+    <!--android:id="@+id/editnewPass1"-->
+    <!--android:layout_below="@+id/editnewPass"-->
+    <!--android:layout_marginLeft="40dp"-->
+    <!--android:layout_marginTop="10dp"-->
+    <!--android:hint="Re-enter Password"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:ems="15"-->
+    <!--android:inputType="textPassword" />-->
+
+    <Button
+        android:id="@+id/btn_SignUp1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editnewPass1"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="150dp"
+        android:text="SignUp" />
+
+
+</RelativeLayout>

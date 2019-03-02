@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="90dp"
+        android:id="@+id/editEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:inputType="textPersonName"
+        android:hint="email" />
+
+    <EditText
+        android:id="@+id/editPass"
+        android:layout_below="@+id/editEmail"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:hint="password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btn_Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editPass"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="150dp"
+        android:text="Login" />
+
+    <TextView
+        android:id="@+id/text0"
+        android:textSize="18dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/btn_Login"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_height="wrap_content"
+        android:text="New User?"/>
+
+    <TextView
+        android:id="@+id/new_user"
+        android:textColor="@android:color/holo_red_light"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="Click Here"
+        android:layout_below="@+id/btn_Login"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/text0"/>
+</RelativeLayout>
